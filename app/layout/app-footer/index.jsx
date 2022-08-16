@@ -4,12 +4,12 @@ import { footerRoutes } from "../../../public/data/global";
 
 const AppFooter = () => {
   return (
-    <footer className='border-fun-pink-darker z-5 bg-bg flex w-screen flex-col border-t px-5 py-10'>
+    <footer className='z-5 bg-bg flex w-screen flex-col border-t border-fun-pink-darker px-5 py-10'>
       <div className='m-auto grid w-full max-w-4xl grid-cols-1 items-start justify-between sm:grid-cols-3'>
         {footerRoutes.columns.map((item, index) => {
           return (
             <div key={index} className='mb-5 text-left sm:mb-0'>
-              <h4 className='text-fun-gray text-sm font-bold uppercase'>{item.title}</h4>
+              <h4 className='text-sm font-bold uppercase text-fun-gray'>{item.title}</h4>
               <div>
                 {item.links.map((item, index) => {
                   return (
@@ -29,7 +29,7 @@ const AppFooter = () => {
           );
         })}
         <div className='text-left'>
-          <h4 className='text-fun-gray text-sm font-bold uppercase'>Support My Work</h4>
+          <h4 className='text-sm font-bold uppercase text-fun-gray'>Support My Work</h4>
           <div className='mt-4 space-y-2'>
             {footerRoutes.support.buyMeACoffee !== "" && (
               <a href='#' target='_blank'>
@@ -42,16 +42,16 @@ const AppFooter = () => {
             {footerRoutes.support.payoneer !== "" && (
               <a href='#' target='_blank'>
                 <img
-                  src='/images/paypal.svg'
+                  src='/images/payoneer.svg'
                   className='mt-2 h-12 opacity-100 transition-opacity hover:opacity-80'
                 />
               </a>
             )}
-            <p className='text-fun-gray mt-2 text-xs'>{footerRoutes.support.message}</p>
+            <p className='mt-2 text-xs text-fun-gray'>{footerRoutes.support.message}</p>
           </div>
         </div>
       </div>
-      <div className='text-fun-gray border-fun-pink-dark m-auto mt-8 w-full max-w-4xl border-t pt-8 text-center sm:mt-4 sm:pt-4'>
+      <div className='m-auto mt-8 w-full max-w-4xl border-t border-fun-pink-dark pt-8 text-center text-fun-gray sm:mt-4 sm:pt-4'>
         <div className='flex flex-col items-center justify-center '>
           <div className='inline-flex items-center text-xs font-bold uppercase tracking-widest'>
             Made with{" "}
@@ -84,7 +84,7 @@ const AppFooter = () => {
           </div>
           <div className='mt-2 text-xs '>
             Made by{" "}
-            <a href='mailto:contact@braydentw.io' className='text-fun-gray-light font-medium'>
+            <a href='mailto:contact@braydentw.io' className='font-medium text-fun-gray-light'>
               Arslan Ali
             </a>
             . All rights reserved.
