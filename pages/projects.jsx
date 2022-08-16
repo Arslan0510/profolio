@@ -5,7 +5,7 @@ const Project = () => {
     <>
       <Heading />
       <Projects />
-      <More />
+      {/* <More /> */}
     </>
   );
 };
