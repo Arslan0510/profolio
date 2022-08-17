@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { footerRoutes } from "../../../public/data/global";
 
 const AppFooter = () => {
@@ -51,7 +50,7 @@ const AppFooter = () => {
           </div>
         </div>
       </div>
-      <div className='m-auto mt-8 w-full max-w-4xl border-t border-fun-pink-dark pt-8 text-center text-fun-gray sm:mt-4 sm:pt-4'>
+      {/* <div className='m-auto mt-8 w-full max-w-4xl border-t border-fun-pink-dark pt-8 text-center text-fun-gray sm:mt-4 sm:pt-4'>
         <div className='flex flex-col items-center justify-center '>
           <div className='inline-flex items-center text-xs font-bold uppercase tracking-widest'>
             Made with{" "}
@@ -90,7 +89,7 @@ const AppFooter = () => {
             . All rights reserved.
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

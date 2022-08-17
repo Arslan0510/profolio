@@ -22,12 +22,7 @@ export const footerRoutes = {
                     name: "Projects",
                     link: "/projects",
                     leavesWebsite: false,
-                },
-                {
-                    name: "Designs",
-                    link: "/designs",
-                    leavesWebsite: false,
-                },
+                }
             ],
         },
         {
@@ -35,20 +30,20 @@ export const footerRoutes = {
             links: [
                 {
                     name: "GitHub",
-                    link: "https://github.com",
+                    link: "https://github.com/arslan0510",
                     leavesWebsite: true,
                 },
                 {
                     name: "LinkedIn",
-                    link: "https://www.linkedin.com",
+                    link: "https://www.linkedin.com/in/arslan-ali-0510/",
                     leavesWebsite: true,
                 }
             ],
         },
     ],
     support: {
-        buyMeACoffee: "braydenw",
-        payoneer: 'arslan.ali',
+        buyMeACoffee: "arslanali",
+        payoneer: 'https://myaccount.payoneer.com/',
         message: "I appreciate your support very much! 💙",
     },
 };
