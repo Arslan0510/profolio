@@ -2,6 +2,7 @@ import Head from "next/head";
 import AppFooter from "./app-footer";
 import AppMiniNavbar from "./mini-nav-bar";
 import AppNavbar from "./nav-bar";
+import Image from "next/image";
 
 const AppLayout = ({ children }) => {
   return (
@@ -21,7 +22,16 @@ const AppLayout = ({ children }) => {
         </div>
         {children}
       </main>
-      <AppFooter />
+      <footer className='footer'>
+        <a
+          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Copyright {new Date().getFullYear()}
+        </a>
+      </footer>
+      {/* <AppFooter /> */}
     </div>
   );
 };

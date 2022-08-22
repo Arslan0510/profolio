@@ -7,10 +7,10 @@ const Hero = () => {
         className='heroElem z-1 relative m-auto flex w-full flex-col items-center justify-center py-20 text-center'
         style={{ maxWidth: "1200px" }}
       >
-        <p className='mb-5 flex cursor-default text-xl '>
+        {/* <p className='mb-5 flex cursor-default text-xl '>
           Hey, I'm
           <span className='ml-1 flex items-center text-xl font-black'>
-            {"ArslanAli".split("").map((letter, index) => {
+            {"FullStackDeveloper".split("").map((letter, index) => {
               return (
                 <span
                   key={index}
@@ -21,7 +21,7 @@ const Hero = () => {
               );
             })}
           </span>
-        </p>
+        </p> */}
 
         <h1 className='heroTitle heroShinyBg relative mb-10  inline-block w-auto max-w-2xl text-5xl font-bold tracking-tighter md:text-6xl lg:max-w-4xl lg:text-7xl'>
           I enjoy <span className='heroShiny1 text-fun-pink'>building</span> and{" "}

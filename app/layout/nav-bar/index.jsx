@@ -18,9 +18,9 @@ const AppNavbar = () => {
         <Link href='/'>
           <span className='flex items-center text-xl font-black'>
             <img
-              className='mr-2 transform transition-transform duration-500 hover:scale-75'
-              src='/images/ts-logo.png'
-              width='160'
+              className='App-logo mr-2 transform transition-transform duration-500 hover:scale-75'
+              src='/images/react-logo.png'
+              width='60'
             />
             {/* {"TechnoStates".split("").map((letter, index) => {
               return (
