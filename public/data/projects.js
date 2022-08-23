@@ -6,7 +6,7 @@ const projects = [
         title: "Trackboost",
         desc: "Trackboost is a Shopify plugin which customizable orders tracking page with cross- sell suggestions.",
         img: "/images/projects/trackboost.jpg",
-        link: "https://learn.theyei.org/",
+        link: "https://apps.shopify.com/trackboost/",
         tags: ["ReactJS", "Redux", "Bootstrap", "SCSS", "Ruby and Rails"],
     },
     {
@@ -14,7 +14,7 @@ const projects = [
         title: "ClassEquity - Teacher",
         desc: "Class equity teacher is a platform where teacher can give virtual money online their students by assigning classroom jobs. Also, teacher can give bonuses, fines, expenses and rent/utilities to their students.",
         img: "/images/projects/class-equity-teacher.jpg",
-        link: "https://buildfaster.co/",
+        link: "https://beta-teacher.classequity.com/",
         tags: ["NextJS", "NodeJS", "Antd", "Bootstrap", "Firebase", "MongoDB"],
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         title: "ClassEquity - Student",
         desc: "Class equity student is a platform where students can earn virtual money online from teachers by doing classroom jobs and spend that money to buy things from store (buy pencils, buy a lunch with teacher etc.).",
         img: "/images/projects/class-equity-student.jpg",
-        link: "https://beta-teacher.classequity.com/",
+        link: "https://beta-student.classequity.com/",
         tags: ["NextJS", "NodeJS", "Antd", "Bootstrap", "Firebase", "MongoDB"],
     },
 ];
